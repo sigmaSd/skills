@@ -1,0 +1,4 @@
+interface:
+  display_name: "F-Droid Submission"
+  short_description: "Prepare, validate, and maintain F-Droid submissions"
+  default_prompt: "Use $fdroid-submit to prepare or maintain this Android app’s official F-Droid submission within my requested scope."
