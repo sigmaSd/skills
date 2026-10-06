@@ -1,6 +1,6 @@
 # Skills
 
-Reusable skills for Codex, maintained by [sigmaSd](https://github.com/sigmaSd).
+Reusable agent skills, maintained by [sigmaSd](https://github.com/sigmaSd).
 
 | Skill | Purpose |
 | --- | --- |
@@ -10,7 +10,9 @@ Each skill directory contains its `SKILL.md` entrypoint and any supporting refer
 
 ## Installation
 
-Copy `fdroid-submit/` into your Codex skills directory, normally `~/.codex/skills/`. Invoke it with `$fdroid-submit`, or ask Codex to prepare or maintain an F-Droid submission.
+Copy the skill directory into your agent's supported skills location, following its installation instructions. The `SKILL.md` instructions and supporting references are portable; `agents/openai.yaml` provides optional Codex UI metadata.
+
+For agents without native skill support, provide `SKILL.md` as instructions and make its referenced files available. Tool access and permissions still depend on the agent.
 
 ## License
 
